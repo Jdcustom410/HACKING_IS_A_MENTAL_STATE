@@ -3,7 +3,6 @@ public class Ability {
 	private int cooldown;
 	private int adaptiveForceDealt;
 	private int bonusHealth;
-	private int bonusAdaptiveForce;
 	private double bonusAttackSpeed;
 	private double bonusEvasion;
 	
@@ -11,7 +10,6 @@ public class Ability {
 		this.cooldown = cd;
 		this.adaptiveForceDealt = adaptiveForceDealt;
 		this.bonusHealth = bonusHealth;
-		this.bonusAdaptiveForce = bonusAdaptiveForce;
 		this.bonusAttackSpeed = bonusAttackSpeed;
 		this.bonusEvasion = bonusEvasion;
 	}
@@ -20,7 +18,6 @@ public class Ability {
 		this.cooldown = 0;
 		this.adaptiveForceDealt = 0;
 		this.bonusHealth = 0;
-		this.bonusAdaptiveForce = 0;
 		this.bonusAttackSpeed = 0;
 		this.bonusEvasion = 0;
 	}
@@ -47,14 +44,6 @@ public class Ability {
 
 	public void setBonusHealth(int bonusHealth) {
 		this.bonusHealth = bonusHealth;
-	}
-
-	public int getBonusAdaptiveForce() {
-		return bonusAdaptiveForce;
-	}
-
-	public void setBonusAdaptiveForce(int bonusAdaptiveForce) {
-		this.bonusAdaptiveForce = bonusAdaptiveForce;
 	}
 
 	public double getBonusAttackSpeed() {
