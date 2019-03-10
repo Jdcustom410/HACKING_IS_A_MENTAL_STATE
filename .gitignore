@@ -23,5 +23,5 @@
 .idea/*
 
 # Eclipse files
-.recommenders\*
-.metadata\*
+.recommenders*
+.metadata*
